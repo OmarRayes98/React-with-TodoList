@@ -1,0 +1,73 @@
+.todo-form {
+    margin-bottom: 32px;
+}
+
+.input-and-button {
+    height: 45px;
+    background: transparent;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.input-and-button__input {
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #5d0cff;
+    outline: none;
+    width: 320px;
+    background: transparent;
+    color: #fff;
+}
+
+.input-and-button__input::placeholder {
+    color: #e2e2e2;
+}
+
+
+
+.input-and-button__button,
+.input-and-button__button.edit {
+    width: 8%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button[type="submit"] {
+    padding: 14px 16px;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(90deg,
+            rgba(93, 12, 255, 1) 0%,
+            rgba(155, 0, 250, 1) 100%);
+    color: #fff;
+}
+
+
+.warning {
+    padding: 20px;
+    background-color: #ff9800;
+    margin: 10px auto;
+
+    display: none;
+    justify-content: center;
+    color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    /* animation: fadeIn 1s; */
+}
+/* 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+} */
