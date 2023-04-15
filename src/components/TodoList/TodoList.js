@@ -142,7 +142,7 @@ const  TodoList = (props) => {
 
         return (
         <>
-            <h1>What's the Plan for Today?</h1>
+            <h1 className="Todo-title">What's the Plan for Today?</h1>
 
             <TodoForm
             warn={warn}

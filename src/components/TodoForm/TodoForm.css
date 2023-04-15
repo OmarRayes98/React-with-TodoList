@@ -48,7 +48,6 @@ button[type="submit"] {
     color: #fff;
 }
 
-
 .warning {
     padding: 20px;
     background-color: #ff9800;
@@ -61,6 +60,31 @@ button[type="submit"] {
     width: 90%;
     /* animation: fadeIn 1s; */
 }
+
+@media screen and (max-width:520px) {
+
+    .input-and-button__input {
+        width: 64%;
+    }
+
+    .warning {
+        width: 88%;
+        padding: 15px;
+
+    }
+}
+
+@media screen and (max-width:410px) {
+
+    .warning {
+        width: 82%;
+        padding: 15px;
+
+    }
+}
+
+
+
 /* 
 @keyframes fadeIn {
     0% {

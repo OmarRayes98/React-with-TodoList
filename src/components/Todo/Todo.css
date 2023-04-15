@@ -77,3 +77,31 @@
             rgba(155, 0, 250, 1) 100%);
     color: #fff;
 }
+
+@media screen and (max-width:500px) {
+    .todo {
+
+        padding: 9px;
+        width: 88%;
+    }
+
+    .buttons__delete-all{
+        margin-right: 2em; 
+        padding: 14px;
+
+
+    }
+}
+
+@media screen and (max-width:410px) {
+    .todo {
+
+        padding: 8px;
+        width: 82%;
+    }
+
+    .buttons__delete-all{
+        margin-right: 2.5em;
+
+    }
+}

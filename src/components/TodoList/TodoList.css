@@ -1,8 +1,23 @@
 
-h1 {
+.Todo-title {
     margin: 32px 0;
     color: #fff;
     font-size: 24px;
+}
+
+@media screen and (max-width:520px) {
+    
+    .Todo-title{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    
+    .Todo-title{
+        font-size: 14px;
+        margin: 32px 15px 32px 25px;
+    }
 }
 
 .empty{

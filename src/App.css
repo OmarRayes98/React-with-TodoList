@@ -18,13 +18,34 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 520px;
+  width: 500px;
   min-height: 580px;
   background: #161a2b;
   text-align: center;
   margin: 77px auto;
   border-radius: 10px;
   padding-bottom: 32px;
+}
+
+@media screen and (max-width:520px) {
+
+  .todo-app {
+    width: 92%;
+    
+  }
+
+  
+}
+
+@media screen and (max-width:420px) {
+
+  .todo-app {
+    width: 90%;
+
+    min-height: 480px;
+  }
+
+  
 }
 
 
