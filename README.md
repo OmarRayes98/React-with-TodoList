@@ -1,11 +1,13 @@
-# React-with-TodoList
-React.js with pure css for Todo-List App 
+# React-with-Responsive-TodoList
+
+#Tools :
+-LocalStorage
+-React.js 
+-pure css  
 _____________________
 # Project URL
 https://react-todolist-personal-localstorage.netlify.app/
 
-# Tools :
-React.js , pure Css and Local Storage.
 
 #Project :
 -if there are no tasks will see message "There are no Tasks"
